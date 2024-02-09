@@ -1,0 +1,56 @@
+.counter{
+    background-image: url('../Images/img7.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    color: #f8f0f0;
+    position: relative;
+
+}
+.counter .grid{
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    text-align: center;
+    place-items: center;
+    padding-top: 40px;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    opacity: 0.689;
+}
+.counter h1{
+    font-size:2rem;
+    font-weight: 600;
+}
+.counter hr{
+    width: 50%;
+    margin: 10px auto;
+    background: #086df1;
+    opacity: 1;
+    height: 3px;
+    border: none;
+}
+.icn i{
+    /* width: 80%;
+    background-color: rgb(178, 181, 184);
+    border-radius: 50px;
+    margin-right: 37px;
+    margin-bottom: 15p
+    */
+    display: inline-block;
+    font-size: 40px;
+    color: #ffb606;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    margin-bottom: 14px;
+    margin-right: 10px;
+}
+.medium{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

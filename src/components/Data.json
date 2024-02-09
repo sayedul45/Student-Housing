@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Residential",
+      "id": 14,
+      "children": [
+        {
+          "name":"Bangabandhu Sheikh Mujibur Rahman Hall",
+          "id": 21
+        },
+        {
+          "name": "Kazi Nazrul Islam Hall",
+          "id": 22
+        },
+        {
+          "name": "Shaheed Dhirendranath Datta Hall",
+          "id": 23
+        },
+        {
+          "name": "Nawab Faizunnisa Chaudhurani Hall",
+          "id": 24
+        },
+        {
+          "name": "Sheikh Hasina Hall",
+          "id": 25
+        }
+      ]
+    },
+    {
+      "name": "Non Residential",
+      "id": 15,
+      "children": [
+        {
+          "id": 31,
+          "name": "Campus Area"
+        },
+        {
+          "id": 32,
+          "name": "Inside City"
+        }
+      ]
+    }
+  ]

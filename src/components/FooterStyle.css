@@ -1,0 +1,92 @@
+.footer{
+    padding: 1rem 4.8rem;
+    background: #67c4e9;
+    color:rgb(24, 11, 11);
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.top i{
+    color: #130b0b;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.top i:hover{
+   color: rgb(243, 246, 247);
+}
+.middle{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.middle div{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.middle h4{
+    font-size: 1.4rem;
+    transform: translate(-10%,0%);
+    font-weight:600;
+    padding: 0.3rem 0.7rem 0;
+    text-transform: capitalize;
+}
+.middle a{
+    text-decoration: none;
+    color:#130c0c ;
+    padding-bottom: 0.4rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.middle a:hover{
+    color: rgb(247, 103, 8);
+    padding-left: 7px;
+}
+.icon i{
+    padding-left: 4rem !important;
+}
+.middle a i{
+    padding-right: 0.5rem;
+}
+.bottom{
+   color: black;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 500;
+   margin-top: 3rem;
+}
+.bottom hr{
+    height: 1rem;
+}
+.bottom p{
+    padding: -1rem 0.1rem;
+}
+@media  screen and(max-width:960) {
+    .footer h1{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .footer p{
+        text-align:center;
+        font-size: 0.5rem;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    .middle a{
+        font-size: 0.6rem;
+    }
+    
+}

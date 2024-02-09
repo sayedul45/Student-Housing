@@ -1,0 +1,193 @@
+
+.hero{
+    width: 100%;
+    height:20%;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 90vh;
+    
+}
+.hero-text{
+    position:absolute;
+    top: 78%;
+    left: 70%;
+    width: 100%;
+    transform: translate(-42%,-30%);
+}
+.hero-text h1{
+    font-size: 2.6rem;
+    font-weight: 650;
+    background: #ff00f2;
+    margin: auto;
+    padding-top: 40px;
+    padding-right: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.typed{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ec048b;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    transform: translate(-30%,-30%);
+}
+.typed .retype{
+    padding-left: 7px;
+}
+.hero-room #herobtn{
+    display: none;
+}
+.hero-room .retype{
+  display: none;
+}
+.hero-room .hero-text h1{
+    background-color: rgb(102, 248, 5) !important;  
+}
+.hero-text .hide{
+    display: none;
+}
+#herobtn{
+   
+    margin-top: 10px;
+    padding: 0.6rem 0.7rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 80%;
+    transform: translate(145%,-70%);
+    background-color: aqua;
+    color: black;
+}
+#herobtn:hover{
+    color: black;
+    background-color: #fff;
+    border-color: blue;
+    outline: auto;
+}
+.hero-room{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.hero-room h1{
+    padding-top: 4rem !important;
+}
+.hero-room img{
+    width: 100%;
+    height: 70vh;
+}
+.hero-fees img{
+    width: 100%;
+    height: 70vh;
+}
+
+.hero-fees #herobtn{
+    display: none;
+}
+.hero-fees .retype{
+  display: none;
+}
+ 
+.hero-fees .hero-text h1{
+     background-color: rgb(245, 10, 120) !important; 
+     margin: auto;
+     padding-bottom: 90px;
+     padding-left: 200px;
+     transform: translate(-1%,-20%);
+}
+.hero-apply img {
+  width: 100%;
+  height: 70vh;
+}
+.hero-apply #herobtn{
+    display: none;
+}
+.hero-apply .retype{
+    display: none;
+}
+.hero-apply h1{
+    background-color: blue !important;
+    transform: translate(10%,-70%);
+}
+.hero-text .show:hover{
+    background-color: aqua;
+    color:#fff; 
+}
+@media screen and (max-width:800px) {
+ 
+  .hero img{
+    width: 100%;
+    height: 55vh;
+    /* position: relative; */
+    z-index: -10;
+  }
+  .hero-room img{
+    width: 100%;
+    height: 55vh;
+  }
+  .hero-fees img{
+    width: 100%;
+    height: 55vh;
+  }
+  .hero-apply img{
+    width: 100%;
+    height: 55vh;
+  }
+ .hero-text{
+    position:relative;
+    top: 21%;
+    left: 70%;
+    transform: translate(-55%,-100%);
+}
+.hero-text h1{
+    padding:0.4rem 0.001rem;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+/* .hero-text p{
+    font-size: 1.2rem;
+    padding:0.6rem 0.6rem;
+} */
+.typed{
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    padding: 0.5rem 0.7rem;
+    transform: translate(-10%,-20%);
+}
+#herobtn{
+    margin-top: 10px;
+    padding: 0.5rem 0.4rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform: translate(130%,-50%);
+    background-color: aqua;
+    color: black;
+    
+}
+.hero-room .hero-text{
+    position:relative;
+    top: -20%;
+    left: 60%;
+    transform: translate(-50%,-96%);
+}
+.hero-room .hero-text h1{
+    padding:0.4rem 0.001rem;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 30px;
+    background-color: rgb(102, 248, 5) !important;  
+}
+
+}

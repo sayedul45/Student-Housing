@@ -1,38 +1,203 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  font-family: sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.roomsHero {
+  max-height: calc(20vh);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.bsmrh {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(200px,-60px);
+}
+.bsmrh h1 {
+  font-size: 2.5rem;
+}
+.bsmrh div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.bsmrh p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.knih{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(370px,-60px);
+}
+.knih h1 {
+  font-size: 2.5rem;
+}
+.knih div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.knih p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.datta{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(370px,-60px);
+}
+.datta h1 {
+  font-size: 2.5rem;
+}
+.datta div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.datta p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hasina{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(370px,-55px);
+}
+.hasina h1 {
+  font-size: 2.5rem;
+}
+.hasina div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.hasina p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.inside ,.faizunessa{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(270px,-50px);
+}
+.inside h1,.faizunessa h1 {
+  font-size: 2.5rem;
+}
+ .inside div,.faizunessa div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+ .inside p,.faizunessa p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.inside{
+  transform: translate(600px,-50px) !important;
+}
+.campus{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color:rgba(233, 219, 21, 0.911);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  transform: translate(500px,-40px);
+}
+.campus h1 {
+  font-size: 2.5rem;
+}
+.campus div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.campus p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* @media screen and (max-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
   }
-  to {
-    transform: rotate(360deg);
+  .banner h1 {
+    font-size: 3rem;
   }
+}
+@media screen and (max-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+} */
+.header{
+  font-size: 3em;
+  line-height: 1;
+  margin:1rem, 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem 0.9rem;
+}
+.head{
+  margin-top: 13rem;
+  text-align: center;
+  padding-bottom: 2rem;
+ 
 }
